@@ -1,3 +1,4 @@
 # Organizador_de_aquivos
  
-**s**
+
+**Uma pasta ou desktop mais organizado**
