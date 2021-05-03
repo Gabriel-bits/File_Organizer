@@ -1,10 +1,8 @@
 # Organizador_de_aquivos
  
 
-**Uma pasta ou desktop mais organizado**       
-**-=]**
-       
-[]
+## Uma pasta ou desktop mais organizado       
+
 
 projeto feito usando python e divesas blibiotecas do seu arsenal...
 
