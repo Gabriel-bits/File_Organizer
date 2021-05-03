@@ -3,7 +3,8 @@
 
 **Uma pasta ou desktop mais organizado**       
 **-=]**
-
+       
+[]
 
 projeto feito usando python e divesas blibiotecas do seu arsenal...
 
