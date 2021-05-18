@@ -2,7 +2,7 @@
 
 
 [![License](https://img.shields.io/github/license/Gabriel-bits/File_Organizer)]()
-[![Status](https://img.shields.io/badge/status-em_desenvolvimento-green)]()
+[![Status](https://shields.io/badge/-Em%20desenvolvimento-green)]()
 ___
 ### _Uma pasta ou desktop mais organizado_
 ___
