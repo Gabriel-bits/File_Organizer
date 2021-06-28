@@ -1,8 +1,8 @@
 # **Organizador de aquivos**
 
 
-[![License](https://img.shields.io/github/license/Gabriel-bits/File_Organizer)]()
-[![Status](https://shields.io/badge/-Em%20desenvolvimento-green)]()
+![License](https://img.shields.io/github/license/Gabriel-bits/File_Organizer)
+![Status](https://shields.io/badge/-Em%20desenvolvimento-green)
 ___
 ### _Uma pasta ou desktop mais organizado_
 ___
@@ -23,7 +23,7 @@ dos seus arquivos
 
 ___
 
-### **Bibliotecas e recursos que foram usadas**
+### **Bibliotecas e recursos que foram usadas:**
 <br>
 
 - PySimpleGUI

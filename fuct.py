@@ -7,6 +7,12 @@ try:
 except FileNotFoundError:
     pass
 
+def load_dic():
+    if os.path.exists('config.json'):
+        with open('config.json', 'r') as f:
+            config = json.load(f)
+    return config
+
 def verif():
     if os.path.exists('config.json'):
         return config['direct']
