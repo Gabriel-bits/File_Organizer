@@ -5,9 +5,6 @@ from fuct import *
 
 #Ler arquivo, se tiver o arquivo nao vai abrir nada e so executar
 
-chek1 = False
-trade = True
-
 sg.SetGlobalIcon('favicon.ico')
 
 try:
@@ -20,7 +17,8 @@ try:
 except FileNotFoundError:
 
     config = {
-    'direct':None, 
+    'direct':None,
+    'direct_inic':None, 
     'stado':1,
     'Codigo-':"Codigo-", 
     'Textos-':"Textos-", 
@@ -111,12 +109,12 @@ if config['stado'] == 1:
         if window == janela2 and event == 'Ok':
             janela2.hide()
             janela3 = tela2()
-            if trade == True:
-                config.update({'stado':2})
-                config.update({'direct':values['direct'].replace("/", "\\")})
+        
+            config.update({'stado':2})
+            config.update({'direct':values['direct'].replace("/", "\\")})
 
-                with open('config.json', 'w') as f:
-                    json.dump(config ,f)
+            with open('config.json', 'w') as f:
+                json.dump(config ,f)
                 print(config['direct'] + ' salvo')
 
         elif window == janela2 and event == 'Cancelar':

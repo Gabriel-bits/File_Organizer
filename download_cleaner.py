@@ -1,6 +1,5 @@
 import os
 import Interface
-import logging
 import time
 import json
 
@@ -69,7 +68,7 @@ class Handler(FileSystemEventHandler):
                 move_to_new_corresponding_folder(event, path_to_folder)
                 return
         except ValueError:
-            print('Arquivo sem extenção')
+            print('Arquivo sem extensão')
             return
 
 
